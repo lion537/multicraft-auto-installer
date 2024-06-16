@@ -4,6 +4,6 @@ tar xvzf multicraft-2.5.0-pre7-64.tar.gz
 apt update
 apt upgrade -y
 apt install lamp-server^
-apt install php-{gd,mysql,mbstring,sqlite3,zip} sqlite curl unzip openjdk-8-jre openjdk-21-jre
+apt install php-{gd,mysql,mbstring,sqlite3,zip} sqlite curl unzip zip openjdk-8-jre openjdk-21-jre
 
-cd multicraft ./install.sh
+cd multicraft ./setup.sh
